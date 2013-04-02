@@ -18,7 +18,7 @@ global.testnumbers = global.testnumbers || +(Math.random(10) * 1000000).toFixed(
  */
 describe('Memcached connections', function () {
   it('should call the callback only once if theres an error', function (done) {
-    var memcached = new Memcached('127.0.1:1234', { retries: 3 })
+    var memcached = new Memcached('127.0.1:1234', { retries: 3, retry: 1000 })
       , calls = 0;
 
     this.timeout(60000);

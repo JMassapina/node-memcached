@@ -35,7 +35,7 @@
     }
   , "dependencies": {
         "hashring": "0.0.x"
-      , "jackpot": "git://github.com/ciaranw/jackpot.git#07b3c1caf8f153eb749ceb68da9288e366f1df83"
+      , "jackpot": "git://github.com/ciaranw/jackpot.git#9f327aea7b8e66a3afe45caa2e54dbfc9ff69d98"
     }
   , "devDependencies": {
         "mocha": "*"

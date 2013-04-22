@@ -34,7 +34,7 @@
       , "url" : "http://github.com/3rd-Eden/node-memcached.git"
     }
   , "dependencies": {
-        "hashring": "0.0.x"
+        "fixed-position-hashring": "git://github.com/ciaranw/fixed-position-hashring#dcb176e5ed1937c1fee2b7ba341c763b326536d2"
       , "jackpot": "git://github.com/ciaranw/jackpot.git#9f327aea7b8e66a3afe45caa2e54dbfc9ff69d98"
     }
   , "devDependencies": {
